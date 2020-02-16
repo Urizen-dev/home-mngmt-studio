@@ -14,6 +14,18 @@ Application for managing home duties and other stuff
 <p>
   This application was first written by me in Java with Spring Boot in MVC pattern. I've decided to rewrite it in vanilla PHP as RESTful API. After that some Front-end will be added. I've chosen PHP because it's easier to find cheap hosting for it.
 </p>
+<h4>Technology used in project</h4>
+<h6>back-end</h6>
+<ul>
+  <li>php 7.4</li>
+  <li>mysql 8.0</li>
+</ul>
+<h6>other</h6>
+<ul>
+  <li>Docker</li>
+  <li>Postman</li>
+  <li>MySql WOrkbench</li>
+</ul>
 <h2>Setting up environment</h2>
 <p> Use Dockerfile and docker-compose.yaml to set up environment (change values if needed):
   <br /><code>
