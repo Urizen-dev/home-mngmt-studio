@@ -6,13 +6,13 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     # working_dir: /application
     volumes:
-      - ./src/mysql_data:/var/lib/mysql
+      - ./mysql_data:/var/lib/mysql
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_DATABASE=home_mngmt_studio
-      - MYSQL_USER=user
-      - MYSQL_PASSWORD=password
+      - MYSQL_USER=user123
+      - MYSQL_PASSWORD=zaq1@WSX
     ports:
       - "8082:3306"
   website:
@@ -21,7 +21,7 @@ services:
     build:
       context: ./
     volumes:
-      - ./src:/var/www/html/
+      - .:/var/www/html/
     ports:
       - 8000:80
     depends_on:
