@@ -1,5 +1,5 @@
 CREATE TABLE `home_mngmt_studio`.`users` (
-  `name` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
   `password` VARCHAR(128) NOT NULL,
   `email` VARCHAR(64) NOT NULL,
   PRIMARY KEY (`name`));
