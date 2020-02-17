@@ -6,6 +6,8 @@ class User
     private $password;      // password encrypted in sha1 algorythm
     private $email;
 
+    // public function __construct() {}
+
     public function __construct(
         string $name,
         string $password,
