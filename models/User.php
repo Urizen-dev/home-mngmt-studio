@@ -8,11 +8,8 @@ class User
 
     // public function __construct() {}
 
-    public function __construct(
-        string $name,
-        string $password,
-        string $email
-    ) {
+    public function __construct(string $name, string $password, string $email)
+    {
         $this->name = $name;
         $this->password = $password;
         $this->email = $email;

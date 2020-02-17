@@ -5,7 +5,6 @@ header('Content-Type: application/json');
 
 include_once($_SERVER["DOCUMENT_ROOT"].'/config/Database.php');
 include_once($_SERVER["DOCUMENT_ROOT"].'/dao/UserDao.php');
-include_once($_SERVER["DOCUMENT_ROOT"].'/models/User.php');
 
 $database = new Database();
 $db = $database->connect();
