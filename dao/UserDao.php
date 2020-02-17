@@ -45,6 +45,6 @@ class UserDao
 
     private function createUser(string $name, string $password, string $email)
     {
-        
+
     }
 }
